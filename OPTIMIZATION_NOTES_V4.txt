@@ -1,0 +1,4 @@
+V4 fixes:
+1. Removed unsupported verbose=0 from keras-facenet FaceNet.embeddings().
+2. Suppressed the internal 1/1 progress output by temporarily capturing stdout/stderr during FaceNet inference.
+3. Preserved V3 camera-thread, UI lifecycle, reports refresh, and dashboard improvements.

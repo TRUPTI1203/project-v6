@@ -1,0 +1,8 @@
+V6 - Duplicate Attendance Fix
+
+The attendance manager now loads today's existing CSV records when it starts and
+checks the CSV again immediately before writing. This prevents the same student
+from being marked repeatedly after restarting the camera, navigating away from
+Attendance, or creating a new AttendanceManager instance.
+
+The camera, GUI, navigation, and page-lifecycle optimizations from V5 are retained.

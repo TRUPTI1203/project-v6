@@ -1,0 +1,10 @@
+V3 fixes:
+1. AttendancePage now initializes _poll_job before destroy can be called.
+2. UI polling is rescheduled continuously every UI_REFRESH_MS. V2 only scheduled poll_ui once.
+3. destroy() is idempotent and safely cancels polling before stopping the camera.
+4. FaceNet inference uses verbose=0 to suppress repeated '1/1 ... step' console output.
+5. Camera/background-thread optimizations from V2 are preserved.
+
+Important:
+- Keep your existing data/ folder with registered students and attendance CSVs.
+- Run from the folder containing app.py.

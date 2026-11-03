@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-10-19T14:23:13",
+  "evaluation_mode": "independent_test_set",
+  "warning": null,
+  "threshold": 0.7,
+  "registered_students": 7,
+  "test_samples": 60,
+  "skipped_images": 0,
+  "accuracy": 0.95,
+  "precision_macro": 1.0,
+  "recall_macro": 0.9365079365079365,
+  "f1_macro": 0.9630252100840336,
+  "false_acceptance_rate": 0.016666666666666666,
+  "false_rejection_rate": 0.05,
+  "average_batch_embedding_time_ms": 175.18137166674327,
+  "genuine_similarity_mean": 0.7865789244572322,
+  "genuine_similarity_min": 0.44524550437927246,
+  "impostor_similarity_max": 0.7339435815811157,
+  "facenet_latency": {
+    "samples": 20,
+    "mean_ms": 120.83729000441963,
+    "median_ms": 119.116000001668,
+    "min_ms": 114.99120001099072,
+    "max_ms": 136.9921000150498
+  },
+  "camera_benchmark": {}
+}
